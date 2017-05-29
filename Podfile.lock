@@ -1,0 +1,17 @@
+PODS:
+  - Alamofire (4.4.0)
+  - PubNub (4.6.0):
+    - PubNub/Core (= 4.6.0)
+  - PubNub/Core (4.6.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - PubNub (~> 4)
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  PubNub: 57bb55c3ac16ff1bbe913f4189e97e67969b308a
+
+PODFILE CHECKSUM: 00cfadac69e7fef89345b91ae48366fadbcc34cb
+
+COCOAPODS: 1.2.0

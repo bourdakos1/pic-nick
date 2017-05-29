@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C67F98258F443ADC70C434D /* Pods_PicNickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E4877A36DB0C2994B93372 /* Pods_PicNickTests.framework */; };
 		23E5EDA31EDCE5A200E5AF97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EDA21EDCE5A200E5AF97 /* AppDelegate.swift */; };
-		23E5EDA51EDCE5A200E5AF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EDA41EDCE5A200E5AF97 /* ViewController.swift */; };
 		23E5EDA81EDCE5A200E5AF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E5EDA61EDCE5A200E5AF97 /* Main.storyboard */; };
 		23E5EDAB1EDCE5A200E5AF97 /* PicNick.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EDA91EDCE5A200E5AF97 /* PicNick.xcdatamodeld */; };
 		23E5EDAD1EDCE5A200E5AF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E5EDAC1EDCE5A200E5AF97 /* Assets.xcassets */; };
 		23E5EDB01EDCE5A200E5AF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E5EDAE1EDCE5A200E5AF97 /* LaunchScreen.storyboard */; };
 		23E5EDBB1EDCE5A200E5AF97 /* PicNickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EDBA1EDCE5A200E5AF97 /* PicNickTests.swift */; };
 		23E5EDC61EDCE5A200E5AF97 /* PicNickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EDC51EDCE5A200E5AF97 /* PicNickUITests.swift */; };
+		23E620491EDCE6B20058F315 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E620481EDCE6B20058F315 /* CameraViewController.swift */; };
+		8CC3DAB859CC25EA36D1ECBF /* Pods_PicNickUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B24820ECB0A8E284DA21B94 /* Pods_PicNickUITests.framework */; };
+		F226E0F97F3BC33472356063 /* Pods_PicNick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C507200AB289CCCDDD5B49 /* Pods_PicNick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		23E5ED9F1EDCE5A200E5AF97 /* PicNick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicNick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E5EDA21EDCE5A200E5AF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23E5EDA41EDCE5A200E5AF97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23E5EDA71EDCE5A200E5AF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23E5EDAA1EDCE5A200E5AF97 /* PicNick.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PicNick.xcdatamodel; sourceTree = "<group>"; };
 		23E5EDAC1EDCE5A200E5AF97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,16 @@
 		23E5EDC11EDCE5A200E5AF97 /* PicNickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicNickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E5EDC51EDCE5A200E5AF97 /* PicNickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicNickUITests.swift; sourceTree = "<group>"; };
 		23E5EDC71EDCE5A200E5AF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E620481EDCE6B20058F315 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		36C507200AB289CCCDDD5B49 /* Pods_PicNick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicNick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4034F87971A6C838EAFD3743 /* Pods-PicNickUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicNickUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicNickUITests/Pods-PicNickUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E2860267383BF323DC9B52F /* Pods-PicNick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicNick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicNick/Pods-PicNick.debug.xcconfig"; sourceTree = "<group>"; };
+		656D41632EB745EEDB93BE62 /* Pods-PicNickUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicNickUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicNickUITests/Pods-PicNickUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B24820ECB0A8E284DA21B94 /* Pods_PicNickUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicNickUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E4877A36DB0C2994B93372 /* Pods_PicNickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicNickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2E5D8F95D24D23594DA2C8 /* Pods-PicNick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicNick.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicNick/Pods-PicNick.release.xcconfig"; sourceTree = "<group>"; };
+		CEF0D7F669C6ECD88B8CA8DC /* Pods-PicNickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicNickTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicNickTests/Pods-PicNickTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5101ACC0B816211F47040C1 /* Pods-PicNickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicNickTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicNickTests/Pods-PicNickTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F226E0F97F3BC33472356063 /* Pods_PicNick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C67F98258F443ADC70C434D /* Pods_PicNickTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC3DAB859CC25EA36D1ECBF /* Pods_PicNickUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				23E5EDB91EDCE5A200E5AF97 /* PicNickTests */,
 				23E5EDC41EDCE5A200E5AF97 /* PicNickUITests */,
 				23E5EDA01EDCE5A200E5AF97 /* Products */,
+				30178B4F78A179832F04A434 /* Pods */,
+				BF0B002739EA4DFCBC21CC4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				23E5EDA21EDCE5A200E5AF97 /* AppDelegate.swift */,
-				23E5EDA41EDCE5A200E5AF97 /* ViewController.swift */,
+				23E620481EDCE6B20058F315 /* CameraViewController.swift */,
 				23E5EDA61EDCE5A200E5AF97 /* Main.storyboard */,
 				23E5EDAC1EDCE5A200E5AF97 /* Assets.xcassets */,
 				23E5EDAE1EDCE5A200E5AF97 /* LaunchScreen.storyboard */,
@@ -128,6 +145,29 @@
 			path = PicNickUITests;
 			sourceTree = "<group>";
 		};
+		30178B4F78A179832F04A434 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E2860267383BF323DC9B52F /* Pods-PicNick.debug.xcconfig */,
+				AE2E5D8F95D24D23594DA2C8 /* Pods-PicNick.release.xcconfig */,
+				CEF0D7F669C6ECD88B8CA8DC /* Pods-PicNickTests.debug.xcconfig */,
+				D5101ACC0B816211F47040C1 /* Pods-PicNickTests.release.xcconfig */,
+				4034F87971A6C838EAFD3743 /* Pods-PicNickUITests.debug.xcconfig */,
+				656D41632EB745EEDB93BE62 /* Pods-PicNickUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF0B002739EA4DFCBC21CC4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C507200AB289CCCDDD5B49 /* Pods_PicNick.framework */,
+				91E4877A36DB0C2994B93372 /* Pods_PicNickTests.framework */,
+				6B24820ECB0A8E284DA21B94 /* Pods_PicNickUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23E5EDCA1EDCE5A200E5AF97 /* Build configuration list for PBXNativeTarget "PicNick" */;
 			buildPhases = (
+				7E7C0D7462EE7742546F5981 /* [CP] Check Pods Manifest.lock */,
 				23E5ED9B1EDCE5A200E5AF97 /* Sources */,
 				23E5ED9C1EDCE5A200E5AF97 /* Frameworks */,
 				23E5ED9D1EDCE5A200E5AF97 /* Resources */,
+				FD3CE51342D1F84786D06D19 /* [CP] Embed Pods Frameworks */,
+				51F4B068676A04413EDFF4A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23E5EDCD1EDCE5A200E5AF97 /* Build configuration list for PBXNativeTarget "PicNickTests" */;
 			buildPhases = (
+				F79FEA182F9ADBFB6A8E7798 /* [CP] Check Pods Manifest.lock */,
 				23E5EDB21EDCE5A200E5AF97 /* Sources */,
 				23E5EDB31EDCE5A200E5AF97 /* Frameworks */,
 				23E5EDB41EDCE5A200E5AF97 /* Resources */,
+				B28CEB9A6737849E03E48B10 /* [CP] Embed Pods Frameworks */,
+				6E5573C5DBEFAB00F3322CDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23E5EDD01EDCE5A200E5AF97 /* Build configuration list for PBXNativeTarget "PicNickUITests" */;
 			buildPhases = (
+				A50B86DE70A0302839459216 /* [CP] Check Pods Manifest.lock */,
 				23E5EDBD1EDCE5A200E5AF97 /* Sources */,
 				23E5EDBE1EDCE5A200E5AF97 /* Frameworks */,
 				23E5EDBF1EDCE5A200E5AF97 /* Resources */,
+				26FA48A3F4314DFC51D1CE6B /* [CP] Embed Pods Frameworks */,
+				F7A8E838FF8A23E34FD718DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,12 +309,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26FA48A3F4314DFC51D1CE6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicNickUITests/Pods-PicNickUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51F4B068676A04413EDFF4A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicNick/Pods-PicNick-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E5573C5DBEFAB00F3322CDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicNickTests/Pods-PicNickTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E7C0D7462EE7742546F5981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A50B86DE70A0302839459216 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B28CEB9A6737849E03E48B10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicNickTests/Pods-PicNickTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F79FEA182F9ADBFB6A8E7798 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7A8E838FF8A23E34FD718DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicNickUITests/Pods-PicNickUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD3CE51342D1F84786D06D19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicNick/Pods-PicNick-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23E5ED9B1EDCE5A200E5AF97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23E5EDA51EDCE5A200E5AF97 /* ViewController.swift in Sources */,
+				23E620491EDCE6B20058F315 /* CameraViewController.swift in Sources */,
 				23E5EDAB1EDCE5A200E5AF97 /* PicNick.xcdatamodeld in Sources */,
 				23E5EDA31EDCE5A200E5AF97 /* AppDelegate.swift in Sources */,
 			);
@@ -419,6 +606,7 @@
 		};
 		23E5EDCB1EDCE5A200E5AF97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2860267383BF323DC9B52F /* Pods-PicNick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KGK2UJBFUH;
@@ -432,6 +620,7 @@
 		};
 		23E5EDCC1EDCE5A200E5AF97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2E5D8F95D24D23594DA2C8 /* Pods-PicNick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KGK2UJBFUH;
@@ -445,6 +634,7 @@
 		};
 		23E5EDCE1EDCE5A200E5AF97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF0D7F669C6ECD88B8CA8DC /* Pods-PicNickTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +650,7 @@
 		};
 		23E5EDCF1EDCE5A200E5AF97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5101ACC0B816211F47040C1 /* Pods-PicNickTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +666,7 @@
 		};
 		23E5EDD11EDCE5A200E5AF97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4034F87971A6C838EAFD3743 /* Pods-PicNickUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = KGK2UJBFUH;
@@ -489,6 +681,7 @@
 		};
 		23E5EDD21EDCE5A200E5AF97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656D41632EB745EEDB93BE62 /* Pods-PicNickUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = KGK2UJBFUH;
@@ -520,6 +713,7 @@
 				23E5EDCC1EDCE5A200E5AF97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23E5EDCD1EDCE5A200E5AF97 /* Build configuration list for PBXNativeTarget "PicNickTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +722,7 @@
 				23E5EDCF1EDCE5A200E5AF97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23E5EDD01EDCE5A200E5AF97 /* Build configuration list for PBXNativeTarget "PicNickUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +731,7 @@
 				23E5EDD21EDCE5A200E5AF97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
